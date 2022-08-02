@@ -20,4 +20,4 @@ docker pull patrickoceandigital/cert-backend:latest
 --net crée un network afin de faire communiquer le frontend et le backend
 --name donne un nom significatif au container au lieu des nom random créé par docker
 
-docker run -p 8080:8080 -p 443:443 --net certnet --name backend patrickoceandigital/cert-backend:latest
+docker run -p 8080:8080 --net certnet --name backend patrickoceandigital/cert-backend:latest
